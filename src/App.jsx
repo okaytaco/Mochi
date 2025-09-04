@@ -5,7 +5,7 @@ import Marquee from './components/Marquee'
 
 function App() {
   return (
-    <div className='w-full h-screen text-black'>
+    <div className="w-full min-h-screen text-black bg-[#f8ebc5]">
       <Navbar />
       <LandingPage />
       <Marquee />
