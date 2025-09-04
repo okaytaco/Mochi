@@ -8,7 +8,7 @@ function LandingPage() {
                 return <div className="masker">
                     <div className="w-fit flex items-baseline gap-[1vw] text-[7vw] leading-[1]">
                         {index === 1 && (<span className="inline-block w-[9vw] h-[1cap] bg-red-500" />)}
-                <h1 className="uppercase font-extrabold text-[#4E0500] tracking-tighter leading-[6.5vw]">
+                <h1 className="uppercase font-extrabold text-[#210f04] tracking-tighter leading-[6.5vw]">
                     {item}
                 </h1>
                 </div>
