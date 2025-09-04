@@ -1,0 +1,27 @@
+import React from 'react'
+
+function LandingPage() {
+  return (
+    <div className="w-full h-screen bg-[#F8EBC5] pt-1">
+        <div className="textstructure mt-60 px-20">
+            {["WE CREATE", "EYE OPENING", "PRESENTATIONS"].map((item, index)=> {
+                return <div className="masker">
+                    <div className="w-fit flex items-baseline gap-[1vw] text-[7vw] leading-[1]">
+                        {index === 1 && (<span className="inline-block w-[9vw] h-[1cap] bg-red-500" />)}
+                <h1 className="uppercase font-extrabold text-[#4E0500] tracking-tighter leading-[6.5vw]">
+                    {item}
+                </h1>
+                </div>
+            </div>
+            })}
+        </div>
+        <div className="border-t-[1px] border-zinc-900 mt-32 flex justify-between items-center py-5 px-20">
+            {["For public and private companies", "From the first pitch to IPO"].map((item, index)=> 
+            <p className="text-md font-normal tracking-tight leading-none">{item}</p> 
+            )}
+        </div>
+    </div>
+  )
+}
+
+export default LandingPage

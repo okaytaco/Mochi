@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'BLUE_OCEAN';
+  src: url('src/assets/fonts/BLUE_OCEAN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
