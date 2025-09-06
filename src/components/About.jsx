@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function About() {
   return (
     <div className="w-full py-20 px-20 bg-[#A78C68] rounded-tl-3xl rounded-tr-3xl text-black">
@@ -17,7 +18,7 @@ function About() {
           <div className="w-3 h-3 bg-zinc-100 rounded-full"></div>
         </button>
         </div>
-        <img src="src/assets/about.jpeg" className="w-1/2 h-[70vh] rounded-3xl" />
+        <img src="/assets/about.jpeg" className="w-1/2 h-[70vh] rounded-3xl" />
 
       </div>
     </div>
