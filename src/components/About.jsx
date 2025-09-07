@@ -18,7 +18,7 @@ function About() {
           <div className="w-3 h-3 bg-zinc-100 rounded-full"></div>
         </button>
         </div>
-        <img src="/assets/about.jpeg" className="w-1/2 h-[70vh] rounded-3xl" />
+        <img src="/assets/feature.jpeg" className="w-1/2 h-[70vh] rounded-3xl" />
 
       </div>
     </div>
