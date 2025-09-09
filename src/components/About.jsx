@@ -3,8 +3,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="w-full py-20 px-20 bg-[#417b5a] rounded-tl-3xl rounded-tr-3xl text-black">
-      <h1 className="text-[3.5vw] leading-[4vw] tracking-tight">Mochi is a strategic partner for fast-growing
+    <div className="w-full py-20 px-20 bg-[#B7D300] rounded-tl-3xl rounded-tr-3xl text-black">
+      <h1 className="text-[3vw] leading-[4vw] tracking-tight">Mochi is a strategic partner for fast-growing
          tech buisnesses that need
         to raise funds, sell products, explain complex ideas, and hire great
         people.
@@ -14,7 +14,7 @@ function About() {
         <h1 className="text-7xl">
             Our Approach :  <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error expedita ad laboriosam beatae?
         </h1>
-        <button className="flex gap-10 items-center px-10 py-6 bg-zinc-900 mt-10 rounded-full text-white">READ MORE
+        <button className="flex gap-10 items-center px-10 py-8 bg-zinc-900 mt-10 rounded-full text-white">READ MORE
           <div className="w-3 h-3 bg-zinc-100 rounded-full"></div>
         </button>
         </div>
