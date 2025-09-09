@@ -3,7 +3,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="w-full py-20 px-20 bg-[#A78C68] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div className="w-full py-20 px-20 bg-[#417b5a] rounded-tl-3xl rounded-tr-3xl text-black">
       <h1 className="text-[3.5vw] leading-[4vw] tracking-tight">Mochi is a strategic partner for fast-growing
          tech buisnesses that need
         to raise funds, sell products, explain complex ideas, and hire great

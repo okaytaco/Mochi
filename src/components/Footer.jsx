@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
 
-    <div className="w-full min-h-screen bg-zinc-100 p-20 relative text-black">
+    <div className="w-full min-h-screen bg-[#d4dccd] p-20 relative text-black">
       
       <div className="w-full flex justify-between items-start">
         <div className="heading">

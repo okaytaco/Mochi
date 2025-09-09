@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="w-full min-h-screen text-black bg-[#f8ebc5]">
+    <div className="w-full min-h-screen text-black bg-[#d4dccd]">
       <Navbar />
       <LandingPage />
       <Marquee />
