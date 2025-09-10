@@ -1,13 +1,14 @@
+import { motion } from 'motion/react'
 import React from 'react'
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen bg-[#ffffff] pt-1">
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen bg-[#ffffff] pt-1">
         <div className="textstructure mt-60 px-20">
             {["WE CREATE", "EYE OPENING", "PRESENTATIONS"].map((item, index)=> {
                 return <div className="masker">
                     <div className="w-fit flex items-baseline gap-[1vw] text-[7vw] leading-[1]">
-                        {index === 1 && (<img src="/assets/mochiimg.jpeg" alt="decorative graphic" className="inline-block w-[9vw] h-[1cap]"/>)}
+                        {index === 1 && (<motion.img initial={{width:0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.8}} src="/assets/mochiimg.jpeg" alt="decorative graphic" className="inline-block w-[9vw] h-[1cap]"/>)}
                 <h1 className="uppercase font-bold text-[#020300] tracking-tighter leading-[6.5vw]">
                     {item}
                 </h1>
