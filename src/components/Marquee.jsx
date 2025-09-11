@@ -3,9 +3,9 @@ import React from 'react';
 
 function Marquee() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".03" className="w-full py-15 rounded-tl-3xl rounded-tr-3xl bg-[#153b0a]">
+    <div data-scroll data-scroll-section data-scroll-speed=".003" className="w-full py-15 rounded-tl-3xl rounded-tr-3xl bg-[#291c1c]">
       
-      <div className="text border-t-2 border-b-2 border-zinc-300 flex overflow-hidden whitespace-nowrap">
+      <div className="text border-t-2 border-b-2 border-[#846039] flex overflow-hidden whitespace-nowrap">
         
         
         <motion.div 
@@ -16,7 +16,7 @@ function Marquee() {
         >
           
           {[1, 2, 3].map((item, index) => (
-             <h1 key={index} className="text-white text-[22vw] leading-none font-bold pb-9 pr-25">
+             <h1 key={index} className="text-[#fff8ef] text-[22vw] leading-none font-bold pb-9 pr-25">
               WE ARE MOCHI
             </h1>
           ))}
